@@ -14,4 +14,8 @@ $(function() {
   $(".modal-inner").on("click", function(e) {
     e.stopPropagation();
   });
+    
+  $('[data-modal="contact"]').click(function(e){
+    $("#modal-1").prop('checked', true);
+  })
 });
